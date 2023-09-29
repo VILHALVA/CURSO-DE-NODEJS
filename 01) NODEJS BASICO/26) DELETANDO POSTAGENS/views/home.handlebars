@@ -1,0 +1,35 @@
+<h1>Lista de postagens:</h1>
+<form class="new-post" action="/cad" method="get">
+  <button type="submit">Nova Postagem!</button>
+</form>
+<table class="table">
+  <thead>
+    <td>id</td>
+    <td>Título</td>
+    <td>Conteúdo</td>
+    <td>Ações</td>
+  </thead>
+  <tbody>
+    {{#each posts}}
+    <tr>
+      <td>{{id}}</td>
+      <td>{{titulo}}</td>
+      <td>{{conteudo}}</td>
+      <td>
+        <div class="grup-action">
+          <form class="form-action" action="/edit/{{id}}" method="get">
+            <button type="submit" class="action-edit">
+              <i class="material-icons">edit</i>
+            </button>
+          </form>
+          <form class="form-action" action="/deletar/{{id}}" method="get">
+            <button type="submit" class="action-delete">
+              <i class="material-icons">delete</i>
+            </button>
+          </form>
+        </div>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
