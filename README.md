@@ -5,7 +5,7 @@
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=nodejs) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20BASICO-blueviolet)](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B)
-[![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20API-blueviolet)](https://img.shields.io/badge/CURSO%20DE-API%20NODEJS%20COM%20MYSQL-03A9F4?logo=github)](https://youtube.com/playlist?list=PL1hl9qLyFtfDXY9NO8F3TnjxezKJ_1HlI&si=jRR0rrVw1WtSkcRo)
+[![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20API-blueviolet)](https://youtube.com/playlist?list=PL1hl9qLyFtfDXY9NO8F3TnjxezKJ_1HlI&si=jRR0rrVw1WtSkcRo)
 
 <img src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-3628954-3030179.png" align="center" width="280"> <br>
 
