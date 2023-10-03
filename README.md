@@ -2,55 +2,14 @@
 👨‍⚖️CURSO COMPLETO DE NODEJS.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20DE-NODEJS-03A9F4?logo=github)](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B) 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO%20DE-API%20NODEJS%20COM%20MYSQL-03A9F4?logo=github)](ttps://youtube.com/playlist?list=PL1hl9qLyFtfDXY9NO8F3TnjxezKJ_1HlI&si=jRR0rrVw1WtSkcRo)
-<br>
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=nodejs) <br>
+
+[![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20BASICO-blueviolet)](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B)
+[![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20API-blueviolet)](https://img.shields.io/badge/CURSO%20DE-API%20NODEJS%20COM%20MYSQL-03A9F4?logo=github)](https://youtube.com/playlist?list=PL1hl9qLyFtfDXY9NO8F3TnjxezKJ_1HlI&si=jRR0rrVw1WtSkcRo)
 
 <img src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-3628954-3030179.png" align="center" width="280"> <br>
 
-## 🤷‍♂️REQUESITOS:
-* 🤯[SABER PROGRAMAR EM JAVASCRIPT](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
-* 🤯[SABER HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-CSS-JS)
-* 🤯[SABER MYSQL](https://github.com/VILHALVA/CURSO-DE-MYSQL)
-* 💻[INSTALAR O NODE JS](https://nodejs.org/pt-br/download/package-manager)
-* 💻[INSTALAR O VISUAL STUDIO CODE](https://visualstudio.microsoft.com/pt-br/)
-
-## 🤷‍♂️CONTEÚDO:
-## [😒01) NODEJS BASICO:](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B)
-* ✅ INTRODUÇÃO A NODEJS
-* ✅ NODE NA PRÁTICA
-* ✅ MODULOS
-* ✅ PROTOCOLO HTTP
-* ✅ ROTAS
-* ✅ PARÂMETROS
-* ✅ NODEMON
-* ✅ EXIBINDO HTML
-* ✅ GERECIANDO O MYSQL
-* ✅ SEQUELIZE
-* ✅ MODELS NO SEQUELIZE
-* ✅ HANDLEBARS
-* ✅ FORMULÁRIOS
-* ✅ BODY PARSER
-* ✅ MONGODB
-* ✅ EXPRESS.JS
-* ✅ SEÇÕES E COOKIES
-* ✅ MIDDLEWARES
-* ✅ LOGOUT
-* ✅ DEPLOY NA HEROKU
-
-### [😒02) API NODEJS COM MYSQL:](https://youtube.com/playlist?list=PL1hl9qLyFtfDXY9NO8F3TnjxezKJ_1HlI&si=jRR0rrVw1WtSkcRo)
-* ✅ PREPARANDO O AMBIENTE
-* ✅ ESTRUTURANDO O PROJETO
-* ✅ CONSULTANDO TODOS OS DADOS
-* ✅ INSERINDO DADOS
-* ✅ ALTERANDO DADOS
-* ✅ EXCLUINDO DADOS
-
 ![](https://i.imgur.com/waxVImv.png)
-
-## 💌VIDEOS DO YOUTUBE:
-* [CRIANDO ROTAS NO NODEJS](https://youtu.be/e_wNYiyybg0?si=wChR-ypp-W_gmb18)
-* [EXECUTANDO FORMULARIO NODEJS COM MYSQL](https://youtu.be/WJB_ajJvB5Y?si=6Gjytmeyc_w0M4UW)
 
 # 🈶NODE JS COM MYSQL NOS FORMULARIOS:
 Aqui está um exemplo completo de um sistema de cadastro e login usando HTML, CSS e Node.js. Este é um exemplo básico para fins educativos, e você deve adicionar medidas de segurança adicionais ao implementar em um ambiente de produção.
