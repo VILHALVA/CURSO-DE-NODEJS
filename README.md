@@ -48,6 +48,10 @@
 
 ![](https://i.imgur.com/waxVImv.png)
 
+## 💌VIDEOS DO YOUTUBE:
+* [CRIANDO ROTAS NO NODEJS](https://youtu.be/e_wNYiyybg0?si=wChR-ypp-W_gmb18)
+* [EXECUTANDO FORMULARIO NODEJS COM MYSQL](https://youtu.be/WJB_ajJvB5Y?si=6Gjytmeyc_w0M4UW)
+
 # 🈶NODE JS COM MYSQL NOS FORMULARIOS:
 Aqui está um exemplo completo de um sistema de cadastro e login usando HTML, CSS e Node.js. Este é um exemplo básico para fins educativos, e você deve adicionar medidas de segurança adicionais ao implementar em um ambiente de produção.
 
