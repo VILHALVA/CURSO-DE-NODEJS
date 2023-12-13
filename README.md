@@ -2,7 +2,8 @@
 👨‍⚖️NODEJS É UM SOFTWARE QUE PERMITE A EXECUÇÃO DO CÓDIGO JAVASCRIPT FORA DO NAVEGADOR WEB.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=nodejs) <br>
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=nodejs) 
+[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20BASICO-blueviolet)](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B)
 [![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20API-blueviolet)](https://youtube.com/playlist?list=PL1hl9qLyFtfDXY9NO8F3TnjxezKJ_1HlI&si=jRR0rrVw1WtSkcRo)
@@ -181,3 +182,30 @@ Aqui está um exemplo completo de um sistema de cadastro e login usando HTML, CS
 Certifique-se de instalar as dependências necessárias do Node.js usando `npm install express body-parser bcrypt`.
 
 Este é um exemplo básico para demonstrar a funcionalidade de cadastro e login. Em um ambiente de produção real, você precisará implementar medidas de segurança mais robustas e cuidadosas. Certifique-se de validar, filtrar e proteger os dados de entrada e usar técnicas de criptografia segura para proteger as senhas.
+
+# CARACTERÍSTICAS
+## POSITIVAS:
+- **JavaScript no Lado do Servidor:** Node.js permite a execução de JavaScript no lado do servidor, unificando o desenvolvimento de aplicações web no lado do cliente e no lado do servidor.
+
+- **Assíncrono e Orientado a Eventos:** Utiliza uma arquitetura assíncrona e orientada a eventos, permitindo a manipulação eficiente de muitas conexões simultâneas.
+
+- **Módulos Nativos e Terceiros:** Possui um vasto ecossistema de módulos nativos e de terceiros disponíveis por meio do npm (Node Package Manager), facilitando o desenvolvimento e a expansão de funcionalidades.
+
+- **Escalabilidade Horizontal:** É conhecido por sua capacidade de escalabilidade horizontal, sendo eficiente na manipulação de um grande número de solicitações simultâneas.
+
+- **Desenvolvimento Rápido:** Oferece um ciclo de desenvolvimento rápido, permitindo a atualização e visualização instantânea de alterações sem a necessidade de reiniciar o servidor.
+
+- **Suporte a Plataformas Diversas:** Node.js é multiplataforma e pode ser executado em diversos sistemas operacionais, incluindo Windows, macOS e Linux.
+
+## NEGATIVAS:
+- **Callback Hell:** A utilização excessiva de callbacks pode levar a uma estrutura de código complexa conhecida como "Callback Hell" em projetos maiores.
+
+- **Single Thread:** Apesar de sua eficiência assíncrona, Node.js é single-threaded, o que pode tornar o processamento de operações intensivas em CPU menos eficiente.
+
+- **Maturidade de Algumas Bibliotecas:** Algumas bibliotecas podem ser menos maduras ou menos estáveis em comparação com tecnologias mais estabelecidas em outras linguagens.
+
+- **Necessidade de Gestão de Dependências:** A gestão de dependências no ecossistema Node.js pode se tornar complexa, especialmente em projetos com muitas dependências ou em ambientes de produção.
+
+- **Não é Adequado para Tarefas Síncronas Pesadas:** Devido à sua natureza assíncrona, Node.js pode não ser a escolha ideal para tarefas síncronas pesadas ou processamento de longa duração.
+
+- **Incompatibilidade com Código Síncrono:** O uso excessivo de código síncrono pode prejudicar o desempenho global do servidor Node.js, exigindo uma abordagem cuidadosa para evitar gargalos.
