@@ -2,15 +2,10 @@
 👨‍⚖️NODEJS É UM SOFTWARE QUE PERMITE A EXECUÇÃO DO CÓDIGO JAVASCRIPT FORA DO NAVEGADOR WEB.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=nodejs) 
 [![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20BASICO-blueviolet)](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B)
 [![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20API-blueviolet)](https://youtube.com/playlist?list=PL1hl9qLyFtfDXY9NO8F3TnjxezKJ_1HlI&si=jRR0rrVw1WtSkcRo)
-
-<img src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-3628954-3030179.png" align="center" width="280"> <br>
-
-![](https://i.imgur.com/waxVImv.png)
 
 # 🈶NODE JS COM MYSQL NOS FORMULARIOS:
 Aqui está um exemplo completo de um sistema de cadastro e login usando HTML, CSS e Node.js. Este é um exemplo básico para fins educativos, e você deve adicionar medidas de segurança adicionais ao implementar em um ambiente de produção.
