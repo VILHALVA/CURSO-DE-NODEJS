@@ -86,4 +86,3 @@ Node.js é um ambiente de tempo de execução de JavaScript que permite aos dese
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://nodejs.org/docs/latest/api/)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
-- [VEJA A SINTAXE](./SINTAXE.md)
