@@ -1,185 +1,61 @@
 # CURSO DE NODEJS
 👨‍⚖️NODEJS É UM SOFTWARE QUE PERMITE A EXECUÇÃO DO CÓDIGO JAVASCRIPT FORA DO NAVEGADOR WEB.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT) <br>
+<img src="FOTO.png" align="center" width="400"> <br>
 
-[![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20BASICO-blueviolet)](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B)
-[![GitHub Repo stars](https://img.shields.io/badge/-NODEJS%20API-blueviolet)](https://youtube.com/playlist?list=PL1hl9qLyFtfDXY9NO8F3TnjxezKJ_1HlI&si=jRR0rrVw1WtSkcRo)
+## CONCEITO:
+Node.js é um ambiente de tempo de execução de JavaScript que permite aos desenvolvedores criar aplicativos de rede escaláveis e de alto desempenho. Aqui está o conceito básico por trás do Node.js:
 
-# 🈶NODE JS COM MYSQL NOS FORMULARIOS:
-Aqui está um exemplo completo de um sistema de cadastro e login usando HTML, CSS e Node.js. Este é um exemplo básico para fins educativos, e você deve adicionar medidas de segurança adicionais ao implementar em um ambiente de produção.
+1. **Ambiente de Tempo de Execução**:
+   - Node.js é um ambiente de tempo de execução de JavaScript construído sobre o motor V8 JavaScript da Google, o mesmo motor utilizado pelo navegador Google Chrome.
+   - Ele permite que os desenvolvedores executem JavaScript no servidor, o que anteriormente era restrito ao navegador.
 
-1. **Estrutura de Pastas:**
+2. **Event-Driven e Non-Blocking I/O**:
+   - Node.js é construído em torno de um modelo de programação assíncrono e orientado a eventos.
+   - Isso significa que em vez de bloquear a execução de operações de entrada/saída (I/O), como leitura de arquivos ou solicitações de rede, o Node.js continua a executar outras operações e processa as I/O de forma assíncrona.
 
-   Crie uma estrutura de pastas como esta:
+3. **Single-Threaded e Event Loop**:
+   - Node.js opera em um modelo single-threaded com loop de eventos. Isso significa que todas as operações são executadas em um único thread, mas o Node.js é capaz de lidar com várias conexões simultâneas devido ao modelo de programação assíncrono.
+   - O event loop é responsável por gerenciar eventos, como solicitações de entrada/saída, timers e callbacks, e garante que as operações sejam executadas de forma eficiente e sem bloqueios.
 
-   ```
-   projeto/
-   ├── public/
-   │   ├── index.html
-   │   ├── style.css
-   │   ├── script.js
-   └── server.js
-   ```
+4. **Módulos e Ecossistema**:
+   - Node.js possui um sistema de módulos incorporado que permite aos desenvolvedores modularizar seu código e reutilizar funcionalidades facilmente.
+   - Além disso, o ecossistema do Node.js é rico e vibrante, com milhares de pacotes disponíveis no npm (Node Package Manager), o maior registro de pacotes de código aberto do mundo.
 
-2. **index.html:**
+5. **Aplicações de Rede e Servidor Web**:
+   - Devido à sua eficiência em operações de rede, Node.js é frequentemente usado para construir aplicativos de rede, como servidores web, APIs RESTful, servidores de jogos em tempo real, aplicativos de bate-papo e muito mais.
+   - Sua capacidade de lidar com muitas conexões simultâneas e operações de E/S assíncronas o torna uma escolha popular para aplicativos de alto tráfego e escaláveis.
 
-   ```html
-   <!DOCTYPE html>
-   <html lang="pt-br">
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link rel="stylesheet" href="style.css">
-       <title>Cadastro e Login</title>
-   </head>
-   <body>
-       <div class="container">
-           <div class="form-container">
-               <h1>Cadastro</h1>
-               <form id="signup-form">
-                   <input type="email" name="email" placeholder="Email" required>
-                   <input type="password" name="senha" placeholder="Senha" required>
-                   <button type="submit">Cadastrar</button>
-               </form>
-           </div>
-           <div class="form-container">
-               <h1>Login</h1>
-               <form id="login-form">
-                   <input type="email" name="email" placeholder="Email" required>
-                   <input type="password" name="senha" placeholder="Senha" required>
-                   <button type="submit">Login</button>
-               </form>
-           </div>
-       </div>
-       <script src="script.js"></script>
-   </body>
-   </html>
-   ```
+## SUA HISTÓRIA:
+1. **Origens (2009)**:
+   - Node.js foi oficialmente lançado por Ryan Dahl em 2009, como um projeto de código aberto hospedado no GitHub.
+   - A motivação para a criação do Node.js foi resolver o problema de escalabilidade e desempenho encontrado em servidores web tradicionais, onde operações de entrada/saída bloqueantes podem levar a problemas de desempenho.
 
-3. **style.css:**
+2. **Baseado no V8 JavaScript Engine**:
+   - Node.js é construído sobre o V8 JavaScript Engine, o mesmo motor JavaScript de alto desempenho desenvolvido pela Google para o navegador Chrome.
+   - Isso permitiu que o Node.js executasse código JavaScript de forma rápida e eficiente no servidor.
 
-   ```css
-   body {
-       font-family: Arial, sans-serif;
-       margin: 0;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 100vh;
-       background-color: #f2f2f2;
-   }
+3. **Modelo Assíncrono e Event-Driven**:
+   - Uma das características mais marcantes do Node.js é o seu modelo de programação assíncrono e orientado a eventos.
+   - Isso permite que o Node.js lide com muitas conexões simultâneas de forma eficiente, sem bloquear a execução do código.
 
-   .container {
-       display: flex;
-   }
+4. **Rápida Adoção e Popularização**:
+   - Node.js ganhou popularidade rapidamente entre os desenvolvedores devido à sua eficiência, escalabilidade e facilidade de uso.
+   - Empresas como LinkedIn, Netflix, Uber e PayPal adotaram o Node.js para seus aplicativos devido aos seus benefícios de desempenho e produtividade.
 
-   .form-container {
-       background-color: #fff;
-       padding: 20px;
-       border-radius: 5px;
-       margin: 0 10px;
-       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   }
+5. **Lançamento de npm e Ecossistema Vibrante**:
+   - Em 2011, o npm (Node Package Manager) foi lançado, oferecendo um vasto ecossistema de pacotes e bibliotecas para os desenvolvedores Node.js.
+   - Isso permitiu que os desenvolvedores compartilhassem código e reutilizassem funcionalidades facilmente, acelerando o desenvolvimento de aplicativos.
 
-   h1 {
-       margin-top: 0;
-   }
+6. **Expansão para Diferentes Domínios**:
+   - Node.js expandiu além de servidores web para uma variedade de domínios, incluindo desenvolvimento de APIs RESTful, aplicativos em tempo real, ferramentas de linha de comando e até mesmo desktop e aplicativos móveis.
 
-   input {
-       width: 100%;
-       margin: 8px 0;
-       padding: 10px;
-       border: 1px solid #ccc;
-       border-radius: 3px;
-       box-sizing: border-box;
-   }
+7. **Desenvolvimento Ativo e Evolução Contínua**:
+   - Node.js é um projeto de código aberto com uma comunidade de desenvolvedores ativa e uma equipe central de mantenedores.
+   - Novas versões são lançadas regularmente, trazendo novos recursos, melhorias de desempenho e correções de bugs.
 
-   button {
-       background-color: #007bff;
-       color: #fff;
-       border: none;
-       border-radius: 3px;
-       padding: 10px 20px;
-       cursor: pointer;
-   }
-   ```
-
-4. **script.js:**
-
-   ```javascript
-   document.addEventListener('DOMContentLoaded', function () {
-       const signupForm = document.getElementById('signup-form');
-       const loginForm = document.getElementById('login-form');
-
-       signupForm.addEventListener('submit', async function (event) {
-           event.preventDefault();
-           const formData = new FormData(signupForm);
-           const response = await fetch('/signup', {
-               method: 'POST',
-               body: formData,
-           });
-           const result = await response.json();
-           alert(result.message);
-       });
-
-       loginForm.addEventListener('submit', async function (event) {
-           event.preventDefault();
-           const formData = new FormData(loginForm);
-           const response = await fetch('/login', {
-               method: 'POST',
-               body: formData,
-           });
-           const result = await response.json();
-           alert(result.message);
-       });
-   });
-   ```
-
-5. **server.js:**
-
-   ```javascript
-   const express = require('express');
-   const bodyParser = require('body-parser');
-   const bcrypt = require('bcrypt');
-   const app = express();
-   const port = 3000;
-
-   app.use(express.static('public'));
-   app.use(bodyParser.urlencoded({ extended: false }));
-
-   const users = [];
-
-   app.post('/signup', async (req, res) => {
-       const { email, senha } = req.body;
-       const hashedSenha = await bcrypt.hash(senha, 10);
-       users.push({ email, senha: hashedSenha });
-       res.json({ message: 'Cadastro bem-sucedido!' });
-   });
-
-   app.post('/login', async (req, res) => {
-       const { email, senha } = req.body;
-       const user = users.find(u => u.email === email);
-       if (user && await bcrypt.compare(senha, user.senha)) {
-           res.json({ message: 'Login bem-sucedido!' });
-       } 
-       else {
-           res.json({ message: 'Credenciais inválidas.'});
-       }
-   });
-
-   app.listen(port, () => {
-       console.log(`Servidor rodando em http://localhost:${port}`);
-   });
-   ```
-
-Certifique-se de instalar as dependências necessárias do Node.js usando `npm install express body-parser bcrypt`.
-
-Este é um exemplo básico para demonstrar a funcionalidade de cadastro e login. Em um ambiente de produção real, você precisará implementar medidas de segurança mais robustas e cuidadosas. Certifique-se de validar, filtrar e proteger os dados de entrada e usar técnicas de criptografia segura para proteger as senhas.
-
-# CARACTERÍSTICAS
-## POSITIVAS:
+## CARACTERÍSTICAS
+### POSITIVAS:
 - **JavaScript no Lado do Servidor:** Node.js permite a execução de JavaScript no lado do servidor, unificando o desenvolvimento de aplicações web no lado do cliente e no lado do servidor.
 
 - **Assíncrono e Orientado a Eventos:** Utiliza uma arquitetura assíncrona e orientada a eventos, permitindo a manipulação eficiente de muitas conexões simultâneas.
@@ -192,7 +68,7 @@ Este é um exemplo básico para demonstrar a funcionalidade de cadastro e login.
 
 - **Suporte a Plataformas Diversas:** Node.js é multiplataforma e pode ser executado em diversos sistemas operacionais, incluindo Windows, macOS e Linux.
 
-## NEGATIVAS:
+### NEGATIVAS:
 - **Callback Hell:** A utilização excessiva de callbacks pode levar a uma estrutura de código complexa conhecida como "Callback Hell" em projetos maiores.
 
 - **Single Thread:** Apesar de sua eficiência assíncrona, Node.js é single-threaded, o que pode tornar o processamento de operações intensivas em CPU menos eficiente.
@@ -204,3 +80,10 @@ Este é um exemplo básico para demonstrar a funcionalidade de cadastro e login.
 - **Não é Adequado para Tarefas Síncronas Pesadas:** Devido à sua natureza assíncrona, Node.js pode não ser a escolha ideal para tarefas síncronas pesadas ou processamento de longa duração.
 
 - **Incompatibilidade com Código Síncrono:** O uso excessivo de código síncrono pode prejudicar o desempenho global do servidor Node.js, exigindo uma abordagem cuidadosa para evitar gargalos.
+
+## SUBSIDIOS:
+- [CURSO CRIADO PELO "VICTOR LIMA - CIÊNCIA DA COMPUTAÇÃO"](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B)
+- [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
+- [VEJA A DOCUMENTAÇÃO](https://nodejs.org/docs/latest/api/)
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
+- [VEJA A SINTAXE](./SINTAXE.md)
