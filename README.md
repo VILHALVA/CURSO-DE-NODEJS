@@ -1,120 +1,90 @@
-# CURSO DE MONGODB
-👨‍⚖️MONGODB É UM BANCO DE DADOS NOSQL ORIENTADO A DOCUMENTOS, QUE OFERECE ALTA FLEXIBILIDADE E ESCALABILIDADE PARA ARMAZENAMENTO E RECUPERAÇÃO DE DADOS.
+# CURSO DE NODEJS
+👨‍⚖️NODEJS É UM SOFTWARE QUE PERMITE A EXECUÇÃO DO CÓDIGO JAVASCRIPT FORA DO NAVEGADOR WEB.
 
 <img src="FOTO.png" align="center" width="400"> <br>
 
 ## CONCEITO:
-O MongoDB é um sistema de gerenciamento de banco de dados NoSQL (não relacional) que armazena dados em um formato de documento flexível, conhecido como BSON (Binary JSON). Ele difere dos bancos de dados relacionais tradicionais, como o MySQL ou o PostgreSQL, em sua estrutura de armazenamento e modelagem de dados.
+Node.js é um ambiente de tempo de execução de JavaScript que permite aos desenvolvedores criar aplicativos de rede escaláveis e de alto desempenho. Aqui está o conceito básico por trás do Node.js:
 
-Aqui estão alguns conceitos-chave relacionados ao MongoDB:
+1. **Ambiente de Tempo de Execução**:
+   - Node.js é um ambiente de tempo de execução de JavaScript construído sobre o motor V8 JavaScript da Google, o mesmo motor utilizado pelo navegador Google Chrome.
+   - Ele permite que os desenvolvedores executem JavaScript no servidor, o que anteriormente era restrito ao navegador.
 
-1. **Documentos:** No MongoDB, os dados são armazenados em documentos BSON, que são estruturas semelhantes a JSON. Cada documento contém pares chave-valor que representam os dados. Os documentos podem variar em estrutura e não precisam seguir um esquema fixo. Isso oferece grande flexibilidade para modelar dados complexos.
+2. **Event-Driven e Non-Blocking I/O**:
+   - Node.js é construído em torno de um modelo de programação assíncrono e orientado a eventos.
+   - Isso significa que em vez de bloquear a execução de operações de entrada/saída (I/O), como leitura de arquivos ou solicitações de rede, o Node.js continua a executar outras operações e processa as I/O de forma assíncrona.
 
-2. **Coleções:** Os documentos são organizados em coleções, que são análogas às tabelas em bancos de dados relacionais. As coleções podem conter documentos relacionados, mas não impõem um esquema rígido aos documentos. Ou seja, diferentes documentos em uma coleção podem ter campos diferentes.
+3. **Single-Threaded e Event Loop**:
+   - Node.js opera em um modelo single-threaded com loop de eventos. Isso significa que todas as operações são executadas em um único thread, mas o Node.js é capaz de lidar com várias conexões simultâneas devido ao modelo de programação assíncrono.
+   - O event loop é responsável por gerenciar eventos, como solicitações de entrada/saída, timers e callbacks, e garante que as operações sejam executadas de forma eficiente e sem bloqueios.
 
-3. **Bancos de Dados:** Os bancos de dados no MongoDB são contêineres lógicos que mantêm várias coleções. Cada banco de dados pode ter várias coleções, e as coleções são independentes entre si. Você pode criar vários bancos de dados em um único servidor MongoDB.
+4. **Módulos e Ecossistema**:
+   - Node.js possui um sistema de módulos incorporado que permite aos desenvolvedores modularizar seu código e reutilizar funcionalidades facilmente.
+   - Além disso, o ecossistema do Node.js é rico e vibrante, com milhares de pacotes disponíveis no npm (Node Package Manager), o maior registro de pacotes de código aberto do mundo.
 
-4. **Campos:** Os campos são os pares chave-valor que compõem um documento BSON. Cada campo em um documento possui um nome exclusivo e um valor associado. Campos podem conter tipos de dados como strings, números, datas e até mesmo outros documentos ou matrizes.
-
-5. **Índices:** O MongoDB suporta a criação de índices para melhorar o desempenho das consultas. Os índices são usados para acelerar a pesquisa de documentos com base em critérios específicos, como a busca por valores em um campo.
-
-6. **Consultas:** Para recuperar dados do MongoDB, você usa consultas que especificam critérios de pesquisa. O MongoDB oferece uma linguagem de consulta rica que permite encontrar documentos com base em valores de campos, projeções, ordenação e outras operações.
-
-7. **Operações de CRUD:** O MongoDB suporta as operações CRUD (Create, Read, Update, Delete) para criar, ler, atualizar e excluir documentos em coleções. As operações de CRUD são realizadas por meio de comandos, como `insert`, `find`, `update` e `remove`.
-
-O MongoDB é amplamente utilizado em aplicativos da web, móveis e IoT devido à sua flexibilidade, escalabilidade e capacidade de gerenciar dados não estruturados ou semiestruturados. Ele é particularmente adequado para casos de uso nos quais os requisitos de dados mudam com frequência ou quando se lida com grandes volumes de dados complexos.
+5. **Aplicações de Rede e Servidor Web**:
+   - Devido à sua eficiência em operações de rede, Node.js é frequentemente usado para construir aplicativos de rede, como servidores web, APIs RESTful, servidores de jogos em tempo real, aplicativos de bate-papo e muito mais.
+   - Sua capacidade de lidar com muitas conexões simultâneas e operações de E/S assíncronas o torna uma escolha popular para aplicativos de alto tráfego e escaláveis.
 
 ## SUA HISTÓRIA:
-1. **Origens (2007)**:
-   - O MongoDB foi desenvolvido por Dwight Merriman, Eliot Horowitz e Kevin Ryan como parte de um projeto interno na DoubleClick, uma empresa de publicidade online.
-   - O objetivo era criar um banco de dados escalável e de alto desempenho para lidar com os requisitos de armazenamento de dados em expansão na empresa.
+1. **Origens (2009)**:
+   - Node.js foi oficialmente lançado por Ryan Dahl em 2009, como um projeto de código aberto hospedado no GitHub.
+   - A motivação para a criação do Node.js foi resolver o problema de escalabilidade e desempenho encontrado em servidores web tradicionais, onde operações de entrada/saída bloqueantes podem levar a problemas de desempenho.
 
-2. **Lançamento Público (2009)**:
-   - O MongoDB foi lançado publicamente em fevereiro de 2009 como um projeto de código aberto sob a licença AGPL (Affero General Public License).
-   - O lançamento atraiu a atenção da comunidade de desenvolvimento de software devido à sua abordagem inovadora para o armazenamento de dados, especialmente para aplicativos da web modernos.
+2. **Baseado no V8 JavaScript Engine**:
+   - Node.js é construído sobre o V8 JavaScript Engine, o mesmo motor JavaScript de alto desempenho desenvolvido pela Google para o navegador Chrome.
+   - Isso permitiu que o Node.js executasse código JavaScript de forma rápida e eficiente no servidor.
 
-3. **Princípios de Design**:
-   - O MongoDB foi projetado com base nos princípios de document-oriented database, o que significa que os dados são armazenados em documentos BSON (Binary JSON), em vez de tabelas como em bancos de dados relacionais.
-   - Ele oferece uma estrutura flexível para armazenar e consultar dados, permitindo que os desenvolvedores trabalhem com dados semi-estruturados e altamente variáveis.
+3. **Modelo Assíncrono e Event-Driven**:
+   - Uma das características mais marcantes do Node.js é o seu modelo de programação assíncrono e orientado a eventos.
+   - Isso permite que o Node.js lide com muitas conexões simultâneas de forma eficiente, sem bloquear a execução do código.
 
-4. **Adoção e Popularidade**:
-   - O MongoDB ganhou popularidade rapidamente entre os desenvolvedores devido à sua flexibilidade, escalabilidade e facilidade de uso.
-   - Ele foi adotado por uma ampla gama de empresas, desde startups até grandes corporações, para uma variedade de casos de uso, incluindo análise de big data, gerenciamento de conteúdo, aplicativos da web, IoT (Internet of Things) e muito mais.
+4. **Rápida Adoção e Popularização**:
+   - Node.js ganhou popularidade rapidamente entre os desenvolvedores devido à sua eficiência, escalabilidade e facilidade de uso.
+   - Empresas como LinkedIn, Netflix, Uber e PayPal adotaram o Node.js para seus aplicativos devido aos seus benefícios de desempenho e produtividade.
 
-5. **Evolução e Versões**:
-   - O MongoDB continua a evoluir com o tempo, com lançamentos regulares que trazem novos recursos, melhorias de desempenho e correções de bugs.
-   - Algumas das versões mais significativas incluem o MongoDB 3.0 (2015), que introduziu a replicação multi-documento e o MongoDB 4.0 (2018), que trouxe transações multi-documento para clusters distribuídos.
+5. **Lançamento de npm e Ecossistema Vibrante**:
+   - Em 2011, o npm (Node Package Manager) foi lançado, oferecendo um vasto ecossistema de pacotes e bibliotecas para os desenvolvedores Node.js.
+   - Isso permitiu que os desenvolvedores compartilhassem código e reutilizassem funcionalidades facilmente, acelerando o desenvolvimento de aplicativos.
 
-6. **Ecossistema e Ferramentas**:
-   - Além do próprio banco de dados, o MongoDB oferece uma ampla gama de ferramentas e serviços complementares, incluindo MongoDB Atlas (serviço de banco de dados como serviço), MongoDB Compass (interface gráfica de usuário), MongoDB Stitch (backend como serviço) e muito mais.
-   - O ecossistema em torno do MongoDB é rico e vibrante, com uma comunidade ativa de desenvolvedores, consultores, parceiros e contribuidores.
+6. **Expansão para Diferentes Domínios**:
+   - Node.js expandiu além de servidores web para uma variedade de domínios, incluindo desenvolvimento de APIs RESTful, aplicativos em tempo real, ferramentas de linha de comando e até mesmo desktop e aplicativos móveis.
 
-7. **Adoção na Educação**:
-   - O MongoDB é frequentemente usado em ambientes educacionais para ensinar conceitos de bancos de dados NoSQL e para fornecer experiência prática aos alunos.
-   - A documentação abrangente e os recursos de aprendizado online tornam o MongoDB uma escolha popular para cursos e treinamentos de bancos de dados.
+7. **Desenvolvimento Ativo e Evolução Contínua**:
+   - Node.js é um projeto de código aberto com uma comunidade de desenvolvedores ativa e uma equipe central de mantenedores.
+   - Novas versões são lançadas regularmente, trazendo novos recursos, melhorias de desempenho e correções de bugs.
 
-## MONGODB != MYSQL:
-O MongoDB e o MySQL são dois sistemas de gerenciamento de banco de dados com abordagens e estruturas bastante diferentes. Aqui estão algumas das principais diferenças entre o MongoDB e o MySQL:
-
-1. **Modelagem de Dados:**
-
-   - **MongoDB:** O MongoDB é um banco de dados NoSQL orientado a documentos. Ele armazena dados em documentos BSON (Binary JSON) flexíveis, permitindo que cada documento tenha uma estrutura própria, incluindo campos variados e aninhamento de documentos. Não há necessidade de um esquema rígido.
-
-   - **MySQL:** O MySQL é um banco de dados relacional, o que significa que os dados são organizados em tabelas com esquemas fixos. As tabelas contêm colunas predefinidas e os dados são armazenados em linhas.
-
-2. **Consulta e Linguagem de Consulta:**
-
-   - **MongoDB:** O MongoDB usa uma linguagem de consulta rica que é semelhante ao JSON para recuperar documentos. As consultas são realizadas em documentos BSON usando operadores como `$eq`, `$gt`, `$lt` e muitos outros para filtrar, projetar e manipular dados.
-
-   - **MySQL:** O MySQL usa SQL (Structured Query Language) para consultas, que é uma linguagem declarativa. As consultas SQL são usadas para recuperar, filtrar, juntar e manipular dados em tabelas relacionais.
-
-3. **Escalabilidade:**
-
-   - **MongoDB:** O MongoDB é altamente escalável e é projetado para funcionar bem em ambientes distribuídos. Ele suporta escalabilidade horizontal, o que significa que você pode adicionar mais servidores para aumentar a capacidade de armazenamento e a capacidade de lidar com cargas de trabalho maiores.
-
-   - **MySQL:** O MySQL também suporta escalabilidade, mas geralmente é mais complexo dimensionar horizontalmente. A escalabilidade vertical, aumentando os recursos de um único servidor, é uma abordagem mais comum.
-
-4. **Índices:**
-
-   - **MongoDB:** O MongoDB suporta a criação de índices para acelerar consultas em campos específicos. Os índices podem ser criados em qualquer campo, incluindo campos incorporados em documentos.
-
-   - **MySQL:** O MySQL também suporta índices, mas o processo de criação e gerenciamento de índices pode ser mais detalhado devido à estrutura relacional.
-
-5. **Transações:**
-
-   - **MongoDB:** O MongoDB suporta transações desde a versão 4.0, permitindo operações atômicas em vários documentos.
-
-   - **MySQL:** O MySQL é conhecido por seu suporte a transações e conformidade com o padrão ACID (Atomicidade, Consistência, Isolamento e Durabilidade). Transações são amplamente usadas em aplicativos que requerem consistência estrita.
-
-6. **Relacionamento entre Dados:**
-
-   - **MongoDB:** O MongoDB é adequado para dados semiestruturados e não relacionais, e não enfatiza a criação de relacionamentos rígidos entre documentos.
-
-   - **MySQL:** O MySQL é projetado para criar relacionamentos entre tabelas usando chaves estrangeiras, tornando-o uma escolha comum para aplicativos com dados altamente relacionados.
-
-Essas são algumas das diferenças-chave entre o MongoDB e o MySQL. A escolha entre eles depende dos requisitos específicos do seu projeto, incluindo a estrutura dos dados, a escalabilidade, o desempenho e o modelo de desenvolvimento que você pretende adotar.
-
-## CARACTERISTICAS:
+## CARACTERÍSTICAS
 ### POSITIVAS:
-1. **Flexibilidade de Modelagem:** O MongoDB permite uma modelagem de dados extremamente flexível devido à sua estrutura de documento. Você pode adicionar ou remover campos sem a necessidade de um esquema rígido, o que é útil em cenários onde os requisitos de dados mudam frequentemente.
+- **JavaScript no Lado do Servidor:** Node.js permite a execução de JavaScript no lado do servidor, unificando o desenvolvimento de aplicações web no lado do cliente e no lado do servidor.
 
-2. **Escalabilidade Horizontal:** O MongoDB é altamente escalável e suporta a escalabilidade horizontal de forma nativa. Isso torna mais fácil lidar com grandes volumes de dados e cargas de trabalho em expansão.
+- **Assíncrono e Orientado a Eventos:** Utiliza uma arquitetura assíncrona e orientada a eventos, permitindo a manipulação eficiente de muitas conexões simultâneas.
 
-3. **Consultas Ricas:** O MongoDB oferece uma linguagem de consulta rica, permitindo consultas complexas e filtragem de dados de maneira eficiente. Operadores como `$eq`, `$gt`, `$lt` e agregação fornecem flexibilidade na consulta de documentos.
+- **Módulos Nativos e Terceiros:** Possui um vasto ecossistema de módulos nativos e de terceiros disponíveis por meio do npm (Node Package Manager), facilitando o desenvolvimento e a expansão de funcionalidades.
 
-4. **Desempenho de Leitura Rápida:** O MongoDB pode fornecer desempenho de leitura rápido, especialmente quando os dados são distribuídos em vários servidores.
+- **Escalabilidade Horizontal:** É conhecido por sua capacidade de escalabilidade horizontal, sendo eficiente na manipulação de um grande número de solicitações simultâneas.
+
+- **Desenvolvimento Rápido:** Oferece um ciclo de desenvolvimento rápido, permitindo a atualização e visualização instantânea de alterações sem a necessidade de reiniciar o servidor.
+
+- **Suporte a Plataformas Diversas:** Node.js é multiplataforma e pode ser executado em diversos sistemas operacionais, incluindo Windows, macOS e Linux.
 
 ### NEGATIVAS:
-1. **Consistência e Transações:** Embora o MongoDB suporte transações desde a versão 4.0, o suporte a transações é menos rigoroso do que em bancos de dados relacionais, o que pode ser problemático em cenários que exigem estrita consistência transacional.
+- **Callback Hell:** A utilização excessiva de callbacks pode levar a uma estrutura de código complexa conhecida como "Callback Hell" em projetos maiores.
 
-2. **Não Relacionamento Direto:** O MongoDB não é a melhor escolha para aplicativos que dependem fortemente de relações complexas entre tabelas. Modelar relacionamentos no MongoDB requer uma abordagem diferente.
+- **Single Thread:** Apesar de sua eficiência assíncrona, Node.js é single-threaded, o que pode tornar o processamento de operações intensivas em CPU menos eficiente.
 
-3. **Tamanho de Armazenamento:** Documentos BSON podem ser mais pesados em termos de armazenamento do que representações tabulares de dados, o que pode afetar o consumo de espaço em disco.
+- **Maturidade de Algumas Bibliotecas:** Algumas bibliotecas podem ser menos maduras ou menos estáveis em comparação com tecnologias mais estabelecidas em outras linguagens.
+
+- **Necessidade de Gestão de Dependências:** A gestão de dependências no ecossistema Node.js pode se tornar complexa, especialmente em projetos com muitas dependências ou em ambientes de produção.
+
+- **Não é Adequado para Tarefas Síncronas Pesadas:** Devido à sua natureza assíncrona, Node.js pode não ser a escolha ideal para tarefas síncronas pesadas ou processamento de longa duração.
+
+- **Incompatibilidade com Código Síncrono:** O uso excessivo de código síncrono pode prejudicar o desempenho global do servidor Node.js, exigindo uma abordagem cuidadosa para evitar gargalos.
 
 ## SUBSIDIOS:
-- [CURSO CRIADO PELO "ZURUBABEL"](https://youtube.com/playlist?list=PL4Sl6eAbMK7RsS4Q8tSHTlOIaUmTG9eRS&si=haPY8dCifHsBy6L2)
+- [CURSO CRIADO PELO "VICTOR LIMA - CIÊNCIA DA COMPUTAÇÃO"](https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
-- [VEJA A DOCUMENTAÇÃO](https://www.mongodb.com/docs/)
+- [VEJA A DOCUMENTAÇÃO](https://nodejs.org/docs/latest/api/)
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-JAVASCRIPT)
 - [VEJA O MANUAL](./MANUAL.md)
 - [VEJA A SINTAXE](./SINTAXE.md)
-
