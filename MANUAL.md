@@ -1,19 +1,4 @@
 # NODEJS - MANUAL
-## CONCEITO:
-Node.js é uma plataforma de código aberto construída sobre o motor JavaScript V8 do Google Chrome. Ele permite que os desenvolvedores usem JavaScript tanto no frontend quanto no backend de uma aplicação web. O Node.js é especialmente conhecido por sua capacidade de lidar com operações de entrada/saída de forma assíncrona e por sua escalabilidade, o que o torna ideal para construir aplicativos em tempo real, APIs RESTful, servidores web e outras aplicações de rede.
-
-Algumas características principais do Node.js incluem:
-
-1. **Assincronismo**: Node.js utiliza um modelo de E/S não bloqueante, o que significa que pode lidar com muitas conexões simultâneas sem a necessidade de threads adicionais, tornando-o eficiente e escalável.
-
-2. **Event-driven**: Node.js é orientado a eventos, o que significa que muitas das operações são realizadas em resposta a eventos, como solicitações HTTP, em vez de seguir um fluxo de controle sequencial.
-
-3. **Baseado em módulos**: O Node.js possui um sistema de módulos que permite a reutilização de código, facilitando a organização e manutenção de projetos.
-
-4. **JavaScript em todo lugar**: Como o JavaScript é a linguagem principal tanto no frontend quanto no backend, os desenvolvedores podem compartilhar código entre os dois ambientes, o que pode aumentar a eficiência e a consistência do desenvolvimento.
-
-5. **Comunidade ativa**: Node.js possui uma comunidade vibrante e ativa, com uma grande variedade de bibliotecas e ferramentas disponíveis para facilitar o desenvolvimento de aplicativos.
-
 ## INSTALAÇÃO:
 1. **Acesse o site oficial do Node.js**: Visite o [site](https://nodejs.org/) e você encontrará o botão de download.
 
