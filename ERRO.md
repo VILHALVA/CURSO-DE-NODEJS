@@ -1,4 +1,5 @@
-# ERR_OSSL_EVP_UNSUPPORTED
+# [ERR_OSSL_EVP_UNSUPPORTED](https://www.google.com/search?q=ERR_OSSL_EVP_UNSUPPORTED&rlz=1C1AVFC_enBR1025BR1025&oq=ERR_OSSL_EVP_UNSUPPORTED&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRg90gEHNTcxajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8)
+
 ```
 (node:1234) ERR_OSSL_EVP_UNSUPPORTED: Unsupported hash algorithm
     at Hash.getHash (/caminho/para/o/projeto/node_modules/hash.js/hash.js:43:15)
@@ -25,7 +26,7 @@
 }
 ```
 
-## CONCEITO:
+## [CONCEITO:](https://cursos.alura.com.br/forum/topico-erro-ao-iniciar-o-projeto-err_ossl_evp_unsupported-343715)
 O erro "ERR_OSSL_EVP_UNSUPPORTED" geralmente ocorre devido a problemas de compatibilidade entre a versão do OpenSSL e a versão do Node.js ou outras dependências. Isso pode acontecer quando o Node.js é incapaz de usar um algoritmo de hash específico devido a restrições ou falta de suporte no OpenSSL.
 
 Para corrigir esse erro, uma solução comum é configurar o Node.js para usar um provedor OpenSSL legado durante a construção ou execução do aplicativo. Isso é feito definindo a variável de ambiente `OPENSSL_CONF` para apontar para um arquivo de configuração OpenSSL adequado, que inclui as configurações para ativar o provedor legado.
@@ -34,7 +35,7 @@ Além disso, em alguns casos, pode ser necessário definir opções adicionais d
 
 Essas configurações são necessárias para contornar problemas de compatibilidade com o Webpack ou outras dependências que podem estar causando o erro "ERR_OSSL_EVP_UNSUPPORTED".
 
-## POSIVEIS CAUSAS:
+## [POSIVEIS CAUSAS:](https://www.2hatslogic.com/blog/troubleshooting_err_ossl/)
 1. **Versão desatualizada do OpenSSL**: Se a versão do OpenSSL usada pelo Node.js estiver desatualizada e não oferecer suporte a certos algoritmos de hash ou criptografia, isso pode causar o erro.
 
 2. **Configuração incorreta do OpenSSL**: Configurações incorretas no arquivo de configuração do OpenSSL (openssl.cnf) podem levar a problemas de compatibilidade.
@@ -45,7 +46,7 @@ Essas configurações são necessárias para contornar problemas de compatibilid
 
 5. **Dependências transitivas**: Dependências do projeto que usam internamente o Webpack podem introduzir problemas de compatibilidade com o OpenSSL, especialmente se estiverem desatualizadas ou não forem mantidas.
 
-## SOLUÇÃO ORTODOXA:
+## [SOLUÇÃO ORTODOXA:](https://kinsta.com/pt/base-de-conhecimento/err_ossl_evp_unsupported/)
 Aqui estão algumas etapas que você pode tentar para resolver esse problema:
 
 1. **Atualize o Node.js**: Verifique se você está usando uma versão recente do Node.js. Se você estiver em uma versão mais antiga, tente atualizar para a versão mais recente e veja se o problema persiste.
@@ -58,7 +59,7 @@ Aqui estão algumas etapas que você pode tentar para resolver esse problema:
 
 Se nenhuma das soluções acima resolver o problema, pode ser útil partir para `SOLUÇÃO GAMBIARRA`.
 
-## SOLUÇÃO GAMBIARRA:
+## [SOLUÇÃO GAMBIARRA:](https://stackoverflow.com/questions/69394632/webpack-build-failing-with-err-ossl-evp-unsupported)
 1. **Excluir a pasta `node_modules`**:
    - Se você está visualizando este tutorial, provavelmente encontrou um erro ao tentar executar o aplicativo. A primeira ação a ser tomada é excluir a pasta `node_modules`.
 
@@ -136,10 +137,9 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
        ```bash
        ng serve
        ```
-       
+
      - **React:**
        ```bash
        npm start
        ```
 
-- [SAIBA MAIS](https://stackoverflow.com/questions/69394632/webpack-build-failing-with-err-ossl-evp-unsupported)
