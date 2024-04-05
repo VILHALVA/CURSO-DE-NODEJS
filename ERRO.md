@@ -83,10 +83,12 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
 
 3. **Configurando a variável de ambiente OPENSSL_CONF**:
    - Execute o seguinte comando para definir o caminho absoluto do arquivo `openssl.cnf`:
+
    **Windows:**
      ```cmd
      set OPENSSL_CONF=C:\Caminho\Para\Seu\Arquivo\openssl.cnf
      ```
+
     **Linux/MAC:**
      ```bash
      export OPENSSL_CONF=/Caminho/Para/Seu/Arquivo/openssl.cnf
@@ -95,10 +97,12 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
    Substitua `C:\Caminho\Para\Seu\Arquivo\openssl.cnf` pelo caminho completo para o seu arquivo `openssl.cnf`. Este comando é necessário para garantir que o OpenSSL utilize as configurações corretas durante a construção ou execução do seu aplicativo.
 
    - Se o arquivo `openssl.cnf` estiver no mesmo diretório onde você está executando o prompt de comando, você pode simplesmente fazer:
+
    **Windows:**
      ```cmd
      set OPENSSL_CONF=openssl.cnf
      ```
+
     **Linux/MAC:**
      ```bash
      NODE_OPTIONS=--openssl-legacy-provider npm run build
@@ -113,10 +117,12 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
 
 5. **Configurando as opções do Node.js para usar o provedor OpenSSL legado**:
    - Execute o seguinte comando:
+
    **Windows:**
      ```cmd
      set NODE_OPTIONS=--openssl-legacy-provider && npm run build
      ```
+
     **Linux/MAC:**
      ```bash
      NODE_OPTIONS=--openssl-legacy-provider npm run build
@@ -125,10 +131,12 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
 
 6. **Executar o aplicativo:**
    - Por fim, basta executar o aplicativo novamente. Aqui estão os comandos para iniciar o servidor local, dependendo do framework utilizado:
+
      - **Angular:**
        ```bash
        ng serve
        ```
+       
      - **React:**
        ```bash
        npm start
