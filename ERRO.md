@@ -114,7 +114,7 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
      ```bash
      npm install
      ```
-   Este comando instala todas as dependências listadas no arquivo `package.json` do seu projeto. Certifique-se de estar no diretório do seu projeto ao executar este comando.
+   Este comando instala todas as dependências listadas no arquivo `package.json` do seu projeto. 
 
 5. **Configurando as opções do Node.js para usar o provedor OpenSSL legado**:
    - Execute o seguinte comando:
