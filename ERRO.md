@@ -61,7 +61,7 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
 
 ## [SOLUÇÃO GAMBIARRA:](https://stackoverflow.com/questions/69394632/webpack-build-failing-with-err-ossl-evp-unsupported)
 1. **Excluir a pasta `node_modules`**:
-   - Se você está visualizando este tutorial, provavelmente encontrou um erro ao tentar executar o aplicativo. A primeira ação a ser tomada é excluir a pasta `node_modules`.
+   - Se você chegou até aqui, é porque a "SOLUÇÃO ORTODOXA" não resolveu o problema. A primeira ação a ser tomada é excluir a pasta `node_modules`.
 
 2. **Criando o arquivo `openssl.cnf`:**
     - Na pasta raiz do seu projeto, crie o arquivo `openssl.cnf` e adicione o seguinte conteúdo nele:
