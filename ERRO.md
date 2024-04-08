@@ -152,11 +152,7 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
        ```bash
        node app.js
        ```
-
-    - [**EMBERJS:**](https://github.com/VILHALVA/CURSO-DE-EMBERJS)
-       ```bash
-       ember serve
-       ```
+       
     - [**EMBERJS:**](https://github.com/VILHALVA/CURSO-DE-EMBERJS)
        ```bash
        ember serve
