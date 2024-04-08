@@ -133,13 +133,40 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
 6. **Executar o aplicativo:**
    - Por fim, basta executar o aplicativo novamente. Aqui estão os comandos para iniciar o servidor local, dependendo do framework utilizado:
 
-     - **Angular:**
+     - [**ANGULAR:**](https://github.com/VILHALVA/CURSO-DE-ANGULAR)
        ```bash
        ng serve
        ```
 
-     - **React:**
+     - [**REACT:**](https://github.com/VILHALVA/CURSO-DE-REACT)
        ```bash
        npm start
+       ```
+
+    - [**VUEJS:**](https://github.com/VILHALVA/CURSO-DE-VUEJS)
+       ```bash
+       npm run serve
+       ```
+
+    - [**EXPRESSJS/NODEJS:**](https://github.com/VILHALVA/CURSO-DE-EXPRESSJS)
+       ```bash
+       node app.js
+       ```
+
+    - [**EMBERJS:**](https://github.com/VILHALVA/CURSO-DE-EMBERJS)
+       ```bash
+       ember serve
+       ```
+    - [**EMBERJS:**](https://github.com/VILHALVA/CURSO-DE-EMBERJS)
+       ```bash
+       ember serve
+       ```
+    - [**METEORJS:**](https://github.com/VILHALVA/CURSO-DE-METEORJS)
+       ```bash
+       meteor
+       ```
+    - [**SVELTE:**](https://github.com/VILHALVA/CURSO-DE-SVELTE)
+       ```bash
+       npm run dev
        ```
 
