@@ -133,15 +133,15 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
 6. **Executar o aplicativo:**
    - Por fim, basta executar o aplicativo novamente. Aqui estão os comandos para iniciar o servidor local, dependendo do framework utilizado:
 
-     - [**ANGULAR:**](https://github.com/VILHALVA/CURSO-DE-ANGULAR)
-       ```bash
-       ng serve
-       ```
+    - [**ANGULAR:**](https://github.com/VILHALVA/CURSO-DE-ANGULAR)
+      ```bash
+      ng serve
+      ```
 
-     - [**REACT:**](https://github.com/VILHALVA/CURSO-DE-REACT)
-       ```bash
-       npm start
-       ```
+    - [**REACT:**](https://github.com/VILHALVA/CURSO-DE-REACT)
+      ```bash
+      npm start
+      ```
 
     - [**VUEJS:**](https://github.com/VILHALVA/CURSO-DE-VUEJS)
        ```bash
