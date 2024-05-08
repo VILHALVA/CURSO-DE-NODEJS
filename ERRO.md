@@ -155,7 +155,7 @@ Se nenhuma das soluções acima resolver o problema, pode ser útil partir para 
        
     - [**EMBERJS:**](https://github.com/VILHALVA/CURSO-DE-EMBERJS)
        ```bash
-       ember serve
+       npm start
        ```
     - [**METEORJS:**](https://github.com/VILHALVA/CURSO-DE-METEORJS)
        ```bash
